@@ -18,7 +18,7 @@ const colorepreferito = prompt();
 
 const passwordpersonalizzata = nome + cognome + colorepreferito + "23"; 
 
-document.getElementById('passwordpersonalizzata').innerHTML= "passwordpersonalizzata" ;
+document.getElementById(passwordpersonalizzata).innerHTML= passwordpersonalizzata;
 
 
 console.log(passwordpersonalizzata);
