@@ -12,9 +12,13 @@
 
 document.getElementById('prova').innerHTML='Hello World!'
 
-const nome = 'Davide';
-const cognome = 'Corleto';
-const colorepreferito = 'Rosso';
+const nome = prompt ();
+const cognome = prompt();
+const colorepreferito = prompt();
+
+const passwordpersonalizzata = nome + cognome + colorepreferito + "23"; 
+
+document.getElementById('passwordpersonalizzata').innerHTML= "passwordpersonalizzata" ;
 
 
-console.log("prova da console");
+console.log(passwordpersonalizzata);
