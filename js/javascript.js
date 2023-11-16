@@ -10,15 +10,18 @@
 // Primo tentativo :)
 // document.writeln('Helloworld!');
 
-document.getElementById('prova').innerHTML='Hello World!'
+// document.getElementById('prova').innerHTML='Hello World!'
 
-const nome = prompt ();
-const cognome = prompt();
-const colorepreferito = prompt();
+//-------------------------------------
 
-const passwordpersonalizzata = nome + cognome + colorepreferito + "23"; 
+const nome = prompt ("scrivi il tuo nome");
+const cognome = prompt("scrivi il tuo cognome");
+const colorepreferito = prompt("inserisci il tuo colore preferito");
 
-document.getElementById(passwordpersonalizzata).innerHTML= passwordpersonalizzata;
+
+const passwordpersonalizzata = nome + cognome + colorepreferito + '23'; 
+
+document.getElementById('password_scritta').innerHTML= passwordpersonalizzata;
 
 
 console.log(passwordpersonalizzata);
